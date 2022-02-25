@@ -5,15 +5,25 @@
 cls
 
 :: settings
-set "TAB=	"
+
+:: what site to check
 set test_page=www.google.com
-set ping_interval=4
-set run_once=no
+
+:: how many seconds between checks
+set ping_interval=450
+
+:: display options
 set display_change=yes
 set display_pings=no
+
+:: filenames
 set change_file=change.log
 set ping_file=state.log
 
+set run_once=no
+set "TAB=	"
+
+:: flag of former state
 set last_internet=2
 
 :start_loop
