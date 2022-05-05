@@ -1,7 +1,7 @@
 # test-internet-connect
 Windows Batch Script to monitor and test an internet connection
 
-This was created to test a home internet connection that would go down for a few hours and come back. After several service calls and rounds of ineffective advice from the connection provider (no names), I wanted to get actual stats on when the connection was up and when it was down.
+This was created to test a home internet connection that would go down for a few hours and come back. After several service calls, rounds of ineffective advice, and blameshifting with the building manager and the connection provider (no names), I wanted to get actual stats on when the connection was up and when it was down.
 
 This script will create two text files, which you can optionally display. One file is a tab-delimited file these fields
 
